@@ -2,8 +2,8 @@
 * The const declaration creates a read-only reference to a value.
 * This only makes the variable itself immutable, not its assigned content.
 
- ### ES6
- #### 1
+### ES6
+#### 1
 ```javascript
   const PI = 3.141593;
   PI = 3 // this will throw error, PI is read only.
