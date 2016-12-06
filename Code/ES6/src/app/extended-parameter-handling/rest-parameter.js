@@ -29,7 +29,7 @@ function sumOnlyNumber() {
 }
 
 // Using rest parameters
-function sumOnlyNumber(...args) {
+function sumOnlyNumber(x, ...args) {
   var numbers = filterNumbers();
   var sum = 0;
 
@@ -39,3 +39,5 @@ function sumOnlyNumber(...args) {
     return args.filter(element => typeof element === 'number');
   }
 }
+
+console.log(sumOnlyNumber('ashutosh', 'singh', 1, 2, 3, 'er.', 6, 7, 8))
