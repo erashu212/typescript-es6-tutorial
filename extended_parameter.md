@@ -68,3 +68,8 @@ var str = "foo";
 var chars = str.split(""); // [ "f", "o", "o" ]
 
 ```
+
+#### Example
+
+```javascript
+```
