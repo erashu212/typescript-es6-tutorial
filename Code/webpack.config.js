@@ -14,6 +14,8 @@ module.exports = {
     filename: '[name].[hash].js',
     chunkFilename: '[id].[hash].chunk.js'
   },
+  debug: true,
+  devtool: 'source-map',
   module: {
     loaders: [
       {
@@ -25,7 +27,7 @@ module.exports = {
         loader: "babel-loader",
         // Options to configure babel with
         query: {
-          presets: [ 'es2015' ],
+          presets: [ 'latest' ],
         }
       }
     ]
